@@ -1,17 +1,16 @@
 # -*- encoding: utf-8 -*-
-# stub: vcr-gzip 0.0.1 ruby lib
-
+# stub: vcr-gzip 0.0.2 ruby lib
 Gem::Specification.new do |s|
   s.name = "vcr-gzip"
   s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.require_paths = ["lib"]
+                                                                              s.require_paths = ["lib"]
   s.authors = ["Alvaro Bautista"]
   s.date = "2016-11-07"
   s.description = "VCR persister that compresses cassettes using Gzip"
   s.email = ["nvse@novu.com"]
-  s.files = [".gitignore", ".rspec", ".travis.yml", "Gemfile", "LICENSE", "README.md", "Rakefile", "lib/vcr-gzip.rb", "lib/vcr-gzip/persister.rb", "lib/vcr-gzip/version.rb", "spec/spec_helper.rb", "spec/vcr-gzip/persister_spec.rb", "spec/vcr-gzip_spec.rb", "vcr-gzip.gemspec"]g
+  s.files = [".gitignore", ".rspec", ".travis.yml", "Gemfile", "LICENSE", "README.md", "Rakefile", "lib/vcr-gzip.rb", "lib/vcr-gzip/persister.rb", "lib/vcr-gzip/version.rb", "spec/spec_helper.rb", "spec/vcr-gzip/persister_spec.rb", "spec/vcr-gzip_spec.rb", "vcr-gzip.gemspec"]
   s.homepage = "http://github.com/novu/vcr-gzip"
   s.rubygems_version = "2.5.1"
   s.summary = "VCR persister that compresses cassettes using Gzip"
